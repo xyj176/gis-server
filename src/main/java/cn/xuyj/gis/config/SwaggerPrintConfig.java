@@ -32,7 +32,7 @@ public class SwaggerPrintConfig implements ApplicationListener<WebServerInitiali
         String applicationName = environment.getProperty("spring.application.name");
         System.out.println("----------系统启动成功----------");
         System.out.println("Application name：" + applicationName);
-        System.out.println("Swagger文档地址：http://" + hostAddress + ":" + port + contextPath + "/swagger-ui/index.html");
+        System.out.println("Swagger文档地址：http://" + hostAddress + ":" + port + contextPath);
         System.out.println("------------------------------");
     }
 }
