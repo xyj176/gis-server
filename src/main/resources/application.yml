@@ -12,3 +12,7 @@ spatial:
     password: 1234
     schema: public
     type: postgis
+
+spring:
+  application:
+    name: gis-server
